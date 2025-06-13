@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addCupLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+
+
+    <EditText
+        android:id="@+id/NameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Name"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/DescriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/StockInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/SizeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/cupImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/buttonChooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+</LinearLayout>

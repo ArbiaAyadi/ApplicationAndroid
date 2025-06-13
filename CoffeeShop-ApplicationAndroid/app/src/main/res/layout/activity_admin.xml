@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffeebg3"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".AdminActivity">
+
+
+    <Button
+        android:id="@+id/coffeemanagebtn"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#371F05"
+        android:text="Manage coffee item"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/sugarmanagebtn"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#371F05"
+        android:text="Manage sugar item"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/cupsbtn"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#371F05"
+        android:text="Manage cups  "
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/drinksbtn"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#371F05"
+        android:text="Manage drinks  "
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+</LinearLayout>
+
+

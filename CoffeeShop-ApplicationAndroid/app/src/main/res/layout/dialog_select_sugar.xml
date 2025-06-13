@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextSugarCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of sugar papers"
+        android:inputType="number" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Sugar" />
+
+        <RadioButton
+            android:id="@+id/radioBrown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brown Sugar" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonSaveSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffeebg"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="cursive"
+        android:text="CoffeeShop"
+        android:textAlignment="center"
+        android:textColor="#D78167"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:background="#80000000"
+        android:padding="16dp"
+        android:text="Welcome to CoffeeTime ☕\nYour one-stop shop for delicious coffee and stylish cups!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/registerBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:backgroundTint="#764333"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/loginBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#764333"
+            android:text="Log In" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:layout_toStartOf="@+id/imageViewCart"
+            android:background="@drawable/search_bar_bg"
+            android:drawableEnd="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:hint="Search for coffee..."
+            android:inputType="text"
+            android:paddingStart="17dp"
+            android:paddingEnd="10dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewCart"
+            android:layout_width="46dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_cart" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCoffee"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+
+
+
+
+</LinearLayout>
